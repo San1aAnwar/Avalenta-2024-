@@ -1,5 +1,5 @@
 function downloadFile() {
-    window.location.href = '';
+    window.location.href = 'https://drive.google.com/file/d/1gXzNajQsvRJZbJXVROLZuUcSNNjCj_Ga/view?usp=sharing';
   }
 
 
@@ -32,12 +32,3 @@ window.addEventListener('load', function() {
 });
 
 
-document.onreadystatechange = function () {
-    if (document.readyState !== "complete") {
-        document.querySelector(".content").style.visibility = "hidden";
-        document.querySelector(".loader").style.visibility = "visible";
-    } else {
-        document.querySelector(".loader").style.display = "none";
-        document.querySelector(".content").style.visibility = "visible";
-    }
-};
