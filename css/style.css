@@ -14,6 +14,7 @@ body{
     font-style: normal;
 }
 
+/*
 .spinner-wrapper {
   background-color:#000000;
   position: fixed;
@@ -26,7 +27,7 @@ body{
   justify-content: center;
   align-items: center;
   transition: all 0.2s;
-}
+} */
 
 .spinner-border{
   height: 60px;
